@@ -3,7 +3,8 @@
 ## Environment
 python = 3.8.20
 CUDA = 12.2
-`conds env create --file AFA.yaml`
+
+`conda env create --file AFA.yaml`
 
 ## Requirement
 Download the **Cityscapes dataset** and set `data_root` in `main.py`.
